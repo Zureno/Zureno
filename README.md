@@ -1,104 +1,55 @@
-# Zureno
+# Hi, I'm Pranshu 👋
 
-A personal project repository for Zureno. This README is a starter template — replace the sections below with project-specific details, usage examples, and any required credentials or environment variables.
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=openjdk&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/-GitLab%20CI-FC6D26?style=flat&logo=gitlab&logoColor=white)
+![OSCP](https://img.shields.io/badge/-OSCP-000000?style=flat&logo=hackthebox&logoColor=white)
 
-## Table of Contents
+Senior AI Application Security Engineer with 11+ years securing web, API, cloud-native, and AI-enabled systems across airlines, telecom, consulting, and financial services. I'm a builder, not just an auditor — I come from a production Python/Java development background and specialize in LLM security, prompt injection defense, agentic system trust boundaries, and AI-assisted development security.
 
-- [About](#about)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## 🔐 What I Do
+- 🛡️ Own SAST/SCA/DAST pipelines end-to-end (Veracode, Checkmarx, Snyk, Semgrep, Burp Suite, OWASP ZAP)
+- 🤖 Secure agentic & LLM systems — prompt injection defense, jailbreak resistance, MCP scope governance, agent credential inheritance
+- 🧵 Run enterprise threat modeling programs using STRIDE
+- ⚙️ Build AI-assisted dev security tooling — deterministic gates for agent-generated code, Claude Code/Copilot/Cursor governance
+- ☁️ Design secure cloud-native architectures on AWS/GCP with IAM, KMS, Kubernetes/OpenShift
 
-## About
+## 💼 Currently
+**Technology Analyst — AI Application Security** @ Southwest Airlines
+Previously: T-Mobile (Lead Security Architect), Delta Airlines, Verizon, Deloitte, Etsy
 
-Briefly describe the purpose of this repository and what problem it solves. Add project goals, scope, and any important notes for users and contributors.
+## 🧪 Independent Vulnerability Research
+Responsible disclosure researcher (GitHub Security Advisories) against major open-source projects:
+- **open-webui/open-webui** — Client-side SSRF via chart rendering (CWE-918) — *Acknowledged, CVE pending*
+- **langgenius/dify** — Cross-tenant IDOR, unauthenticated impersonation, and info disclosure (3 findings)
+- **mkdocs/mkdocs** — Unsafe YAML deserialization, stored XSS, path traversal, and more (6 findings)
+- **goauthentik/authentik** — SAML XML signature wrapping, OAuth2 redirect_uri binding issue
+- **FlowiseAI/Flowise** — Mass assignment enabling billing field overwrite
 
-## Features
+## 🛠️ Open Source Projects
+- **[burp-jwt-analyzer](https://github.com/Zureno/burp-jwt-analyzer)** — Burp Suite extension for detecting insecure JWT configs, weak validation logic, and token exposure
+- **Burp_LLM_Tester** — Burp Suite extension integrating LLM reasoning into HTTP analysis, vulnerability triage, and API security automation
+- **StoryMagic** — Full-stack generative AI storytelling platform (React Native + Node.js + Gemini) with content moderation and hallucination mitigation baked in
+- **TokenTenancy** — Full-stack rental/tenant management platform with secure auth, RBAC, and hardened API workflows
 
-- Feature 1 — short description
-- Feature 2 — short description
-- Feature 3 — short description
+## 📌 Pinned
+Pin these on your profile for best visibility: `burp-jwt-analyzer` (already public), plus `Burp_LLM_Tester`, `StoryMagic`, `TokenTenancy` once those repos are public. Go to a repo → the "⋯" menu (or your profile's Customize pins) → Pin repository.
 
-## Technologies
+## 🧰 Tech Stack
+**Languages:** Python · Java · FastAPI · Bash
+**Security Tools:** Veracode · Checkmarx · Snyk · Semgrep · Burp Suite · OWASP ZAP · Sonatype Nexus · Prisma Cloud · Wiz
+**Infra:** Kubernetes/OpenShift · Docker · Terraform · Helm · GitLab CI/CD · Jenkins · Tekton
+**Cloud:** AWS (IAM, KMS, GuardDuty, Security Hub) · GCP
+**AI/LLM Security:** Prompt injection defense · Adversarial testing · OWASP Top 10 for LLMs · AI red teaming
 
-List of primary languages, frameworks, and tools used in this repo. Update as appropriate.
+## 📜 Certifications
+OSCP · CCSP · CEH · Red Teaming LLM Applications · Certified API Security Analyst · Red Team Ops (Zero Point Security) · Databricks Generative AI · Generative AI on AWS Bedrock & SageMaker
 
-- Language / Framework / Tool
-
-## Getting Started
-
-These instructions will help you set up the project locally for development and testing.
-
-### Prerequisites
-
-- Software A (version)
-- Software B (version)
-
-### Installation
-
-1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/Zureno/Zureno.git
-   cd Zureno
-   ```
-
-2. Install dependencies (example):
-
-   ```bash
-   # Example for Node.js
-   npm install
-   ```
-
-3. Configure environment variables if needed. Create a `.env` from `.env.example` and add any secrets required.
-
-## Usage
-
-Explain how to run the project and examples of common workflows.
-
-```bash
-# Example: start the development server
-npm run dev
-```
-
-Add screenshots or examples for CLI usage, API endpoints, or UI flows as relevant.
-
-## Development
-
-Explain the development workflow, how to run tests, linters, formatters, and how to build for production.
-
-```bash
-# Run tests
-npm test
-
-# Build
-npm run build
-```
-
-## Contributing
-
-Contributions are welcome. Please open issues to discuss changes and submit pull requests for review. Add a section with guidelines (branch naming, commit messages, code style, tests required).
-
-## License
-
-Specify the project's license (e.g., MIT). If you don't have a license yet, consider adding one.
-
-## Contact
-
-Maintainer: Zureno
-
-Repo: https://github.com/Zureno/Zureno
+## 📫 Reach Me
+📧 p21raghav@gmail.com
 
 ---
-
-If you'd like, I can: 
-- add badges (build, tests, license),
-- detect and list the repository's main languages and frameworks automatically, or
-- create a more detailed README tailored to the project's actual files and purpose.
+<sub>🎓 MS, University of Maryland–Baltimore County</sub>
