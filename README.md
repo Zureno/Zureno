@@ -40,10 +40,6 @@ Senior AI Application Security Engineer with 11+ years securing web, API, cloud-
 - ⚙️ Build AI-assisted dev security tooling — deterministic gates for agent-generated code, Claude Code/Copilot/Cursor governance
 - ☁️ Design secure cloud-native architectures on AWS/GCP with IAM, KMS, Kubernetes/OpenShift
 
-## 💼 Currently
-**Technology Analyst — AI Application Security** @ Southwest Airlines
-Previously: T-Mobile (Lead Security Architect), Delta Airlines, Verizon, Deloitte, Etsy
-
 ## 🧪 Independent Vulnerability Research
 Responsible disclosure researcher (GitHub Security Advisories) against major open-source projects:
 - **open-webui/open-webui** — Client-side SSRF via chart rendering (CWE-918) — *Acknowledged, CVE pending*
