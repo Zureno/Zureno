@@ -47,6 +47,14 @@ Responsible disclosure researcher (GitHub Security Advisories) against major ope
 - **mkdocs/mkdocs** — Unsafe YAML deserialization, stored XSS, path traversal, and more (6 findings)
 - **goauthentik/authentik** — SAML XML signature wrapping, OAuth2 redirect_uri binding issue
 - **FlowiseAI/Flowise** — Mass assignment enabling billing field overwrite
+- ****open-webui** — GHSA-rffm-9q57-q649 / CVE-2026-70480 (SSRF via Vega charts) ✓ verified real
+- **immich** — GHSA-wwfq-95jq-3m3c (path traversal) and GHSA-8xfw-gq8x-8mrr (allowedHosts SSRF bypass) — both shown "Published"
+- **PedroMarianoAlmeida/ffmpeg-mcp** — GHSA-hgj9-2qj3-j498 (protocol/path validation bypass) — "Published"
+- **2b3pro/markdown2pdf-mcp** — GHSA-r476-vv4c-fhqx (local file disclosure + SSRF) — "Published," maintainer wrote "THANK YOU @Zureno"
+- **nocodb** — GHSA-9pm8-hchw-w7jx (hidden-column auth bypass)
+- **dsh-secret-scrub** — fixed in 0.1.4 ✓ verified
+- **flare-redact** — fixed in 1.10.4 (add GHSA once published)
+- **Microlink** — credited at microlink.io/security
 
 ## 🛠️ Open Source Projects
 - **[burp-jwt-analyzer](https://github.com/Zureno/burp-jwt-analyzer)** — Burp Suite extension for detecting insecure JWT configs, weak validation logic, and token exposure
